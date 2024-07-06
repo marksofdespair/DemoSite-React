@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import AboutMe from './Pages/AbooutMe';
 import './App.css';
 import './Layout';
+import Skills from './Pages/Skills';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
           <Route element={<Layout/>}> 
           <Route path="/" element={<Home />} /> {/* Route for Home page/Home */}
             <Route path="/AboutMe" element={<AboutMe />} /> {/* Route for AboutMe */}
+            <Route path="/Skills" element={<Skills />} /> {/* Route for Skills */}
           </Route>
         </Routes>
       </Router>
