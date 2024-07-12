@@ -1,2 +1,2 @@
 # React Demo Site
-Personal Misc Testing
+Personal and demo site build and testing.
