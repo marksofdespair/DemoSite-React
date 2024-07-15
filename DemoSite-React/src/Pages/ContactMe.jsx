@@ -18,7 +18,8 @@ const ContactMe = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.send('SERVICE_ID', 'TEMPLATE_ID', formData, 'USER_ID')
+        /* STILL NEEDS 'USER_ID' */
+        emailjs.send('service_f61oy6h', 'template_dmj966f', formData, 'USER_ID')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 alert('Message sent successfully!');
