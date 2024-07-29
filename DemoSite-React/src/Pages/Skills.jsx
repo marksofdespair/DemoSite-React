@@ -18,8 +18,9 @@ const Skills = () => {
             The following are examples of some of these practical skills:
             <br></br>
             <br></br>
+                <p><h1>Interactivity</h1></p>
+                <p><h1>Transparency</h1></p>
                 <p><h1></h1></p>
-
         </div>
     )
 }
