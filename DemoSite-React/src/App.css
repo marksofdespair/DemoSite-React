@@ -1,42 +1,64 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* App.css */
+
+/* General styling for the body */
+body {
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Styling for the main container */
+div {
+  flex: 1;
+}
+
+/* Styling for the footer */
+footer {
+  background-color: #1e1e1e; /* Slightly lighter dark background */
+  color: #b0b0b0; /* Grey text color */
   text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Styling for the links */
+a {
+  color: #ffffff; /* White link color */
+  text-decoration: none;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color: #b0b0b0; /* Grey color on hover */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Styling for headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
 }
 
-.card {
-  padding: 2em;
+/* Styling for other text elements */
+p {
+  color: #e0e0e0;
 }
 
-.read-the-docs {
-  color: #888;
+/* Layout styling */
+.layout {
+  padding: 20px;
+}
+
+/* Adding some basic padding to the main sections */
+main {
+  padding: 20px;
+}
+
+/* Adding some spacing between the sections */
+section {
+  margin-bottom: 20px;
 }
