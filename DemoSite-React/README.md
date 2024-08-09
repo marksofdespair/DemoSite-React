@@ -1,6 +1,6 @@
-# React + Vite
+# Personal Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website repo is built and maintained by Habitual Nightmare (c) using Vite + React
 
 Currently, two official plugins are available:
 
