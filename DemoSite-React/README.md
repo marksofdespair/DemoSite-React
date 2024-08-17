@@ -12,3 +12,5 @@ This application also utilizes these libraries, frameworks, and languages:
 
 - Java
 - JavaScript
+- ThymeLeaf
+- Springboot
