@@ -26,7 +26,7 @@ const ContactMe = () => {
             })
             .catch((err) => {
                 console.error('FAILED...', err);
-                alert('Failed to send the message.');
+                alert('Failed to send the message, sorry!');
             });
 
         setFormData({
